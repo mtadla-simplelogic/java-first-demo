@@ -1,10 +1,7 @@
-import java.util.Scanner;
-
 public class IfDemo {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj liczbe");
-        int x = scanner.nextInt();
+        int x = 4;
         System.out.println(x);
 
         if (x % 2 == 0) {
