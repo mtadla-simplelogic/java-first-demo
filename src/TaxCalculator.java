@@ -5,16 +5,17 @@ public class TaxCalculator {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj dochód");
         int income = scanner.nextInt();
-        int tax = 0;
+        double tax;
 
+        if (income <= 120000) {
+            tax = income * 0.17;
+        } else if (income <= 1000000) {
+            tax = 120000 * 0.17 + (income - 120000) * 0.32;
+        } else {
+            tax = 120000 * 0.17 + 880000 * 0.32 + (income - 1000000) * 0.36;
+        }
 
         System.out.println("Podatek do zaplacenia:");
         System.out.println(tax);
     }
-    // do 120 000 -> 17%
-    // ponad 120 000 -> 32%
-    // ponad 1 000 000 -> 36%
-
-    // 150 000
-    // 120 000 * 0.17 + (150 000 - 120 000) * 0.32
 }
