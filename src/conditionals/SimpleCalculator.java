@@ -1,3 +1,5 @@
+package conditionals;
+
 import java.util.Scanner;
 
 public class SimpleCalculator {

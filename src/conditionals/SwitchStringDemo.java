@@ -1,3 +1,5 @@
+package conditionals;
+
 public class SwitchStringDemo {
     public static void main(String[] args) {
         String browser = "opera";

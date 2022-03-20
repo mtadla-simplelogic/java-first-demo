@@ -1,3 +1,5 @@
+package types;
+
 public class NumbersDemo {
     public static void main(String[] args) {
         byte numberOfStates = 50;

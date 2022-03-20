@@ -1,3 +1,5 @@
+package loops;
+
 public class NumberPrinter {
     public static void main(String[] args) {
         System.out.println("standardowa petla z ++");

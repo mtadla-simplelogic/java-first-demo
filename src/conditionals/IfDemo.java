@@ -1,3 +1,5 @@
+package conditionals;
+
 public class IfDemo {
     public static void main(String[] args) {
         System.out.println("Podaj liczbe");

@@ -1,3 +1,5 @@
+package conditionals;
+
 public class SwitchIntDemo {
 
     public static void main(String[] args) {

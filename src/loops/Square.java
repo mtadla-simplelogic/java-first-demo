@@ -1,3 +1,5 @@
+package loops;
+
 public class Square {
     public static void main(String[] args) {
         int size = 10;

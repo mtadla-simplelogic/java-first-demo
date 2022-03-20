@@ -1,3 +1,5 @@
+package loops;
+
 public class ForInFor {
     public static void main(String[] args) {
 
@@ -11,7 +13,7 @@ public class ForInFor {
 
             System.out.println("petla 'j' zostala zakonczona");
         }
-        
+
         System.out.println("petla 'i' zostala zakonczona");
     }
 }
