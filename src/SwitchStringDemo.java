@@ -12,7 +12,7 @@ public class SwitchStringDemo {
             case "ie":
                 System.out.println("Uruchamiam ie....");
                 break;
-            default:
+            default:  // blok default jest opcjonalny
                 System.out.println("Przeglądarka " + browser + " nie jest wspierana");
         }
         System.out.println("Koniec programu");
