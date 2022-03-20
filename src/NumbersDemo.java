@@ -9,7 +9,9 @@ public class NumbersDemo {
         System.out.println(numberOfCountries);
         System.out.println(equatorLengthInKm);
         System.out.println(distanceToSunInMeters);
-
+        int d = 5;
+        System.out.println(d = d + 7);
+        System.out.println(d);
 
         float pi = 3.141592653562643f;
         double betterPi = 3.141592653562643d;
