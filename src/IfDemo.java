@@ -6,5 +6,12 @@ public class IfDemo {
         System.out.println("Podaj liczbe");
         int x = scanner.nextInt();
         System.out.println(x);
+
+        if (x % 2 == 0) {
+            System.out.println("jest to liczba parzysta");
+        } else {
+            System.out.println("jest to liczba niepatrzysta");
+        }
+
     }
 }
