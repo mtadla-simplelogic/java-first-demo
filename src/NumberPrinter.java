@@ -25,6 +25,13 @@ public class NumberPrinter {
             System.out.println(i);
         }
 
+        System.out.println("petla z wczesniej zadeklarownym i");
+        int i;
+        for (i = 0; i < 3; i++) {
+            System.out.println(i);
+        }
+        System.out.println("wartość i po zakonczeniu petli to: " + i);
+
         System.out.println("koniec programu");
     }
 }
