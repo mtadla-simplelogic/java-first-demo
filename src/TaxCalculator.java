@@ -15,7 +15,6 @@ public class TaxCalculator {
             tax = 120000 * 0.17 + 880000 * 0.32 + (income - 1000000) * 0.36;
         }
 
-        System.out.println("Podatek do zaplacenia:");
-        System.out.println(tax);
+        System.out.println("Podatek do zaplacenia: " + tax);
     }
 }
