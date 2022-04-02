@@ -2,7 +2,7 @@ package conditionals;
 
 public class SwitchStringDemo {
     public static void main(String[] args) {
-        String browser = "opera";
+        String browser = "chrome";
 
         switch (browser) {
             case "firefox":
