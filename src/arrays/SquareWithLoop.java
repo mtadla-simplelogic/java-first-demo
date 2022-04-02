@@ -1,13 +1,17 @@
 package arrays;
 
-public class Square {
-    //14-15.05.2022
-    //28-29.05.2022
-    //11-12.06 2022
-
+public class SquareWithLoop {
     public static void main(String[] args) {
-        int n = 10;
-        int[] tab = new int[n];
+        int n = 100;
+        int[] numbers = new int[n];
+
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = i * i;
+        }
+
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println("element o indeksie " + i + " ma wartość:" + numbers[i]);
+        }
     }
 //    Stwórz zmienna int n i przypisz to niej dowolną wartość >0.
 //    Stwórz tablice n elementową.
