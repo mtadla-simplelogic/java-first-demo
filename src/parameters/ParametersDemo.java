@@ -2,14 +2,16 @@ package parameters;
 
 public class ParametersDemo {
     public static void main(String[] args) {
-        printIfNumberCanByDividedBy(10, 2);
-        printIfNumberCanByDividedBy(23, 6);
-        printIfNumberCanByDividedBy(8, 4);
-        printIfNumberCanByDividedBy(15, 5);
+        int[] dividers = {2, 3, 4, 5};
+        printIfNumberCanByDividedBy(10, dividers);
+        printIfNumberCanByDividedBy(23, dividers);
+        printIfNumberCanByDividedBy(8, dividers);
+        printIfNumberCanByDividedBy(15, dividers);
     }
 
-    public static void printIfNumberCanByDividedBy(int number, int divider) {
+    public static void printIfNumberCanByDividedBy(int number, int[] dividers) {
         System.out.println("Sprawdzam liczbe " + number);
+        
         if (number % 2 == divider) {
             System.out.println("Liczba jest podzielna przez " + divider + " bez reszty");
         } else {
