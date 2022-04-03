@@ -11,11 +11,14 @@ public class ParametersDemo {
 
     public static void printIfNumberCanByDividedBy(int number, int[] dividers) {
         System.out.println("Sprawdzam liczbe " + number);
-        
-        if (number % 2 == divider) {
-            System.out.println("Liczba jest podzielna przez " + divider + " bez reszty");
-        } else {
-            System.out.println("Liczba nie jest podzielna przez " + divider + " bez reszty ");
+
+        for (int divider : dividers) {
+            if (number % divider == 0) {
+                System.out.println(">>>Liczba jest podzielna przez " + divider + " bez reszty");
+            } else {
+                System.out.println(">>>Liczba nie jest podzielna przez " + divider + " bez reszty ");
+            }
         }
     }
+
 }
