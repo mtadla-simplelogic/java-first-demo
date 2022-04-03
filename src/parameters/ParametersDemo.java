@@ -1,12 +1,18 @@
 package parameters;
 
+import java.util.Scanner;
+
 public class ParametersDemo {
     public static void main(String[] args) {
         int[] dividers = {2, 3, 4, 5};
-        printIfNumberCanByDividedBy(10, dividers);
-        printIfNumberCanByDividedBy(23, dividers);
-        printIfNumberCanByDividedBy(8, dividers);
-        printIfNumberCanByDividedBy(15, dividers);
+
+        System.out.println("Porsze powiedz ile liczb chcesz sprawdzić");
+        int quantityOfNumbersToCheck = getNumberFromUser();
+
+        for (int i = 0; i < quantityOfNumbersToCheck; i++) {
+            printIfNumberCanByDividedBy(getNumberFromUser(), dividers);
+        }
+
     }
 
     public static void printIfNumberCanByDividedBy(int number, int[] dividers) {
@@ -21,4 +27,9 @@ public class ParametersDemo {
         }
     }
 
+    public static int getNumberFromUser() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Prosze podaj liczbe");
+        return scanner.nextInt();
+    }
 }
