@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Ex1_GuessNumber {
     public static void main(String[] args) {
-        int numberToGuess = new Random().nextInt(10);
+        int numberToGuess = getRandomNumber(100);
         int maxNumberOfTries = 5;
 
         for (int i = 1; i <= maxNumberOfTries; i++) {
@@ -29,6 +29,10 @@ public class Ex1_GuessNumber {
             }
 
         }
+    }
+
+    public static int getRandomNumber(int range) {
+        return new Random().nextInt(range);
     }
 
     public static int getNumberFromUser() {
