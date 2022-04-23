@@ -13,5 +13,4 @@ public class Ch15_Main {
         System.out.println(ford.brand + " " + ford.color + " " + ford.horsePower + " KM");
         ford.drive();
     }
-
 }
