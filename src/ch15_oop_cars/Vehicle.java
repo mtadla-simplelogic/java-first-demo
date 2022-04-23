@@ -1,6 +1,6 @@
 package ch15_oop_cars;
 
-public class Car {
+public class Vehicle {
     public String brand;
     public String color;
     public int horsePower;

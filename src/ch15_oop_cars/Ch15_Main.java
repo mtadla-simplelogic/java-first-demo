@@ -2,7 +2,7 @@ package ch15_oop_cars;
 
 public class Ch15_Main {
     public static void main(String[] args) {
-        Car car1 = new Car();
+        Vehicle car1 = new Vehicle();
         System.out.println("Car1 details before initialization");
         System.out.println("color: " + car1.color);
         System.out.println("brand: " + car1.brand);
@@ -13,12 +13,12 @@ public class Ch15_Main {
         car1.brand = "bmw";
         car1.horsePower = 330;
 
-        Car car2 = new Car();
+        Vehicle car2 = new Vehicle();
         car2.color = "blue";
         car2.brand = "bmw";
         car2.horsePower = 330;
 
-        Car car3 = new Car();
+        Vehicle car3 = new Vehicle();
         car3.color = "red";
         car3.brand = "ford";
         car3.horsePower = 120;
