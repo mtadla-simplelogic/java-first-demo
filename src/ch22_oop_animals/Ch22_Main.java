@@ -6,5 +6,11 @@ public class Ch22_Main {
         dog.bark();
         dog.introduce();
         dog.eat(); // to jest metoda z klasy bazowej Animal
+
+        Bird bird = new Bird("Tweety", 10, true);
+
+        bird.introduce();
+        bird.eat();
+        bird.fly();
     }
 }
