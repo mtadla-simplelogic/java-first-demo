@@ -11,7 +11,7 @@ public class Bird extends Animal {
     }
 
     public void introduce() {
-        System.out.println("I'm bird, my name is: " + name
+        System.out.println("\nI'm bird, my name is: " + name
                 + " and I have wingspan: " + wingspan);
     }
 
