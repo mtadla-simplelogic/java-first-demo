@@ -1,8 +1,8 @@
 package ch22_oop_animals;
 
 public class Bird extends Animal {
-    int wingspan;
-    boolean canFly;
+    private int wingspan;
+    private boolean canFly;
 
     public Bird(String name, int wingspan, boolean canFly) {
         super(name);
@@ -11,7 +11,7 @@ public class Bird extends Animal {
     }
 
     public void introduce() {
-        System.out.println("\nI'm bird, my name is: " + name
+        System.out.println("\nI'm bird, my name is: " + getName()
                 + " and I have wingspan: " + wingspan);
     }
 
@@ -21,5 +21,17 @@ public class Bird extends Animal {
         } else {
             System.out.println("I can't fly");
         }
+    }
+
+    public int getWingspan() {
+        return wingspan;
+    }
+
+    public boolean getCanFly() {
+        return canFly;
+    }
+
+    public void setWingspan(int wingspan) {
+        this.wingspan = wingspan;
     }
 }

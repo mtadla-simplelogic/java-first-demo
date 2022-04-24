@@ -18,11 +18,12 @@ public class Ch22_Main {
         eagle.introduce();
         eagle.fly();
         eagle.eat();
-        System.out.println("Claws: " + eagle.clawsLength);
+        System.out.println("Claws: " + eagle.getClawsLength());
 
         pinquin.introduce(); // metoda z klasy bird (dostepna dzieki dziedziczeniu)
         pinquin.fly(); // metoda z klasy bird (dostepna dzieki dziedziczeniu)
         pinquin.eat(); // metoda z klasy animal (dostepna dzieki dziedziczeniu)
-        System.out.println("Swimming speed: " + pinquin.swimmingSpeed);
+        System.out.println("Swimming speed: " + pinquin.getSwimmingSpeed());
+        pinquin.fly();
     }
 }

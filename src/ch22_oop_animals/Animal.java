@@ -11,4 +11,12 @@ public class Animal {
     public void eat() {
         System.out.println("I can eat");
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
