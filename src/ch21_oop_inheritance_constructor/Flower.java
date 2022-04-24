@@ -3,8 +3,8 @@ package ch21_oop_inheritance_constructor;
 public class Flower extends Plant {
     String smell;
 
-    public Flower(String plantName, int height, String smell) {
-        super(plantName, height);
+    public Flower(String name, int height, String smell) {
+        super(name, height);
         this.smell = smell;
     }
 }
