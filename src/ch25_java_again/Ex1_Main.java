@@ -6,7 +6,7 @@ public class Ex1_Main {
     }
 
   /*
-Stwórz klasę Recipient z polami:
+Stwórz klasę Person z polami:
 - String firstName
 - String lastName
 - int age
@@ -21,7 +21,7 @@ dodaj konstruktor i metodę send() wypisującą:
 treść listu i uruchamiającą metody printInfo() dla recipienta i sendera.
 
 
-W main stowrzyć 2 obiekty klasy Recipient, potem przekazać je do konstruktora klasy Letter
+W main stowrzyć 2 obiekty klasy Person, potem przekazać je do konstruktora klasy Letter
 i uruchomić metodę letter.send();
    */
 
