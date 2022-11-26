@@ -3,7 +3,7 @@ package ch03_if;
 public class Ex1_If {
     public static void main(String[] args) {
         System.out.println("Podaj liczbe");
-        int x = 5;
+        int x = 101;
         System.out.println(x);
 
         if (x % 2 == 0) {
